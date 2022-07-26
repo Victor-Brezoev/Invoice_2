@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto';
+    font-size:17px;
+    }
+
+    body{
+        margin: 80px 90px;
+    }
+
+    header{
+        text-align: center;
+    }
+    
+    h1{
+        font-size: 80px;
+        letter-spacing: 8px;
+    }
+
+    h3{
+        font-size: 25px;
+        letter-spacing: 8px;
+    }
+
+    .companies-info{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 253px;
+        text-align: left;
+        line-height: 25px;
+    }
+
+    .invoice {
+        border-spacing: 25px 0px;
+    }
+
+    .hr-top{
+        overflow: visible; 
+        height: 30px;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px 0 0 0;
+        border-radius: 20px;
+    }
+
+    .hr-top::before{
+        display: block;
+        content: "";
+        height: 30px;
+        margin-top: -31px;
+        border-style: solid;
+        border-color: black;
+        border-width: 0 0 1px 0;
+        border-radius: 20px;
+    }
+
+    .description{
+        margin-top: 200px;
+        border-spacing: 5px;
+        width: 100%;
+        text-align: center;
+        border-collapse: separate;
+    }
+
+    .description thead {
+        opacity: 0.7;
+        background-color: rgb(151 155 184);
+    }
+
+    .description tbody{
+        background: #d9d9d9;
+    }
+
+    .description  thead tr th{
+        padding-bottom: 35px;
+        padding-top: 15px;
+        border-radius: 5px;
+    }
+
+    .description td{
+        padding: 25px;
+        border-radius: 5px;
+    }
+
+.description th:first-of-type{
+    width: 400px;
+}
+
+.total{
+    border-collapse: separate;
+    border-spacing: 5px;
+    width: 400px;
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: 108px;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+}
+
+.total td{
+    margin: 12px 12px 12px 12px;
+    padding: 12px 12px 12px 12px;
+    background: #d9d9d9;
+    border-radius: 5px;
+}
+
+h4{
+    margin-top: 50px;
+
+}
+
+ul{
+    list-style-type: circle;
+}
+
+
+
+
